@@ -390,7 +390,9 @@ body {
     align-items: center;
     justify-content: space-between;
   }
-
+  #page2 .pic .upper{
+    margin-top: 2px;
+  }
   #page2 .pic {
     height: 100%;
     width: 100%;
