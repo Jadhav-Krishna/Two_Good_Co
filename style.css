@@ -403,6 +403,12 @@ body {
     margin-bottom: 3vw;
     overflow: hidden;
   }
+  #page2 .pic .details .lower img {
+    height: 60%;
+    width: 40%;
+    margin-left: 0%;
+    object-fit: cover;
+  }
 
   #page25 {
     height: 60vh;
