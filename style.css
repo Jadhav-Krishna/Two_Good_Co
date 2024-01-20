@@ -391,6 +391,9 @@ body {
     align-items: center;
     justify-content: space-between;
   }
+  #page2 .details{
+    height: 27vh;
+  }
   #page2 .pic .upper{
     margin-top: 2px;
   }
