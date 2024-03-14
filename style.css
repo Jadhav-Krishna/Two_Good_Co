@@ -457,6 +457,11 @@ body {
     margin-left: 30%;
     object-fit: cover;
   }
+  #page2 .pic .details:hover {
+    height: 25vh;
+    border-radius: 15px;
+  }
+  
 
   #page25 {
     height: 60vh;
