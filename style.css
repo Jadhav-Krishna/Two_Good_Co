@@ -11,6 +11,12 @@ body {
   background-color: #f7f7f7;
   font-family: futura;
 }
+
+@font-face {
+  font-family: futura;
+  src: url(./Futura-Bold.ttf);
+}
+
 #cursor {
   height: 150px;
   width: 150px;
@@ -246,11 +252,53 @@ body {
   border: 0.5px solid rgba(0, 0, 0, 0.5);
 }
 #page4 {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
-  padding: 20%;
-  background: lavender;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
+#page4 #click{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  gap: 12%;
+  overflow: auto;
+}
+#page4 #click h3{
+  font-family: cursive;
+  font-weight: 900;
+  font-size: 26px;
+}
+#page4 ::-webkit-scrollbar{
+  display: none;
+}
+#page4 #paragraph{
+  width: 75%;
+  color: rgb(0, 0, 0);
+  /* height: 50%; */
+  text-align: center;
+}
+#page4 #paragraph h1{
+  font-size: 3.3vw;
+}
+#page4 button{
+  padding: 1.2% 3%;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+}
+#page4 button:hover{
+  background-color: rgb(39, 39, 39);
+}
+#page4 p{
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+  
 
 #page5{
   height: 100vh;
@@ -297,7 +345,7 @@ body {
   height: 5%;
   width: 100%;
   font-size: 3vw;
-  padding: 1%;
+  padding: 2%;
   background: transparent;
   border: none;
   border-bottom: 1px solid black;
@@ -455,7 +503,15 @@ body {
   #nav-part2 #atags a {
     display: none;
   }
-
+  #page4 #click h3{
+    font-size: 5vw;
+  }
+  #page4 #paragraph{
+    width: 90%;
+  }
+  #page4 #paragraph h1{
+    font-size: 6vw;
+  }  
 
   #page5{
     height: 100vh;
@@ -481,12 +537,20 @@ body {
     width: 98%;
     object-fit: cover;
   }
+  #page5 #people1 #here{
+    width: 50%;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+  }
+  
+  
 
 
   #page6 #wrapper svg{
-    height: 30vh;
+    scale: 3;
     position: absolute;
-    top: 25%;
+    left: 40%;
+    top: 20%;
   }
   #page6 #wrapper{
     margin-top: 52%;
