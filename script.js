@@ -181,47 +181,85 @@ cursor_animation();
 
 function textAni(){
   let para = document.querySelector("#page4 h1");
-  gsap.from("#page4 h1",{
-    y:100,
-    duration:1.5,
-    color:"red",
-    scale:0.5,
-    opacity:0,
-    stagger:1,
-  })
   document.querySelector("#c1").addEventListener("click", function(){
+    gsap.from("#page4 h1",{
+      y:300,
+      duration:1,
+      opacity:0.5,
+    });  
     para.textContent="THANK YOU SO MUCH FOR THE BEAUTIFUL CATERING; IT MEANS A LOT WORKING WITH A COMPANY SUCH AS TWO GOOD CO."
   });
   document.querySelector("#c2").addEventListener("click", function(){
+    gsap.from("#page4 h1",{
+      y:300,
+      duration:1,
+      opacity:0.5,
+    });  
     para.textContent="THE HAMPERS WE ORDERED WERE LOVELY AND THE TEAM ARE WONDERFUL TO LIAISE WITH."
   });
   document.querySelector("#c3").addEventListener("click", function(){
+    gsap.from("#page4 h1",{
+      y:500,
+      duration:1,
+      opacity:0.5,
+    });  
     para.textContent="MY PACKAGE JUST ARRIVED AND THE PRESENTATION IS SO BEAUTIFUL; ELEGANT, MAGICAL AND MEANINGFUL, WITH THE ITEMS WRAPPED IN DELICIOUS-SMELLING TISSUE PAPER. GORGEOUS; WILL BE BACK FOR MORE."
   });
   document.querySelector("#c4").addEventListener("click", function(){
+    gsap.from("#page4 h1",{
+      y:400,
+      duration:1,
+      opacity:0.5,
+    });  
     para.textContent="I THINK I SPEAK FOR EVERYONE WHEN I SAY WE ARE VERY GRATEFUL TO HAVE BEEN ABLE TO COME IN AND HELP OUT FOR THE DAY; THE WORK YOU DO IS AMAZING."
   });
   document.querySelector("#c5").addEventListener("click", function(){
+    gsap.from("#page4 h1",{
+      y:400,
+      duration:1,
+      opacity:0.5,
+    });  
     para.textContent="EVERYONE AT TWO GOOD ARE LOVELY TO WORK WITH. CATERING WAS EXCELLENT AND WELL PRICED, ALL FOR A GOOD CAUSE... WHAT'S NOT TO LOVE?"
   });
   document.querySelector("#c6").addEventListener("click", function(){
+    gsap.from("#page4 h1",{
+      y:300,
+      duration:1,
+      opacity:0.5,
+    });  
     para.textContent="MY CEO ASKED ME WHO I HAD USED FOR THE CATERING; WHEN I EXPLAINED ABOUT TWO GOOD, SHE SAID OH, THAT’S WHY - THE FOOD IS MADE WITH LOVE."
   });
   document.querySelector("#c7").addEventListener("click", function(){
+    gsap.from("#page4 h1",{
+      y:300,
+      duration:1,
+      opacity:0.5,
+    });  
     para.textContent="THIS IS THE BEST CATERING FOOD I HAVE HAD IN YEARS. ALL THE MEALS WERE ABSOLUTELY DELICIOUS, WELL PRESENTED AND GENEROUS."
   });
   document.querySelector("#c8").addEventListener("click", function(){
+    gsap.from("#page4 h1",{
+      y:300,
+      duration:1,
+      opacity:0.5,
+    });  
     para.textContent="GREAT CAUSE, GREAT PEOPLE AND ABSOLUTELY GREAT FOR THE ENVIRONMENT."
   });
   document.querySelector("#c9").addEventListener("click", function(){
+    gsap.from("#page4 h1",{
+      y:500,
+      duration:1,
+      opacity:0.5,
+    });  
     para.textContent="I CAN’T THANK YOU ENOUGH FOR THE AMAZING FOOD YOUR TEAM PROVIDED US TODAY. OUR STAFF COULDN’T SPEAK HIGHLY ENOUGH OF THE FISH AND THE SALADS; LOOKING FORWARD TO WORKING TOGETHER MORE."
   });
   document.querySelector("#c10").addEventListener("click", function(){
+    gsap.from("#page4 h1",{
+      y:300,
+      duration:1,
+      opacity:0.5,
+    });  
     para.textContent="I LOVE THE WAY THEY OPERATE; DONATING IS ONE THING BUT EMPLOYING AND EMPOWERING WOMEN IS SO IMPORTANT."
   });
-
-
-
-
 }
 textAni();
